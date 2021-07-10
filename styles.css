@@ -1,0 +1,12 @@
+@font-face {
+  src: url('font/NanumBrushScript-Regular.ttf');
+  font-family: 'ad';
+}
+.hidden {
+  display: none;
+}
+#box {
+  backdrop-filter: blur(10px);
+  color: #e2e2e2;
+  font-family: 'ad';
+}
