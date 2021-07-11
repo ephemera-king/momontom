@@ -1,4 +1,3 @@
-const toDoForm = document.getElementById('todo-form');
 const toDoInput = toDoForm.querySelector('input');
 const toDoList = document.getElementById('todo-list');
 
@@ -49,4 +48,9 @@ if (savedToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
+}
+const username = localStorage.getItem('username');
+
+if (username === null) {
+  toDoForm.classList.add(HIDDEN_CLASSNAME);
 }
