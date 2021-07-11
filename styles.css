@@ -114,7 +114,6 @@ input::placeholder {
   justify-content: center;
   margin: 10px;
   font-size: 23px;
-
   align-items: center;
   border-radius: 100px;
 }
@@ -127,6 +126,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #weather {
   font-size: 20px;
