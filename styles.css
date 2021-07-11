@@ -133,6 +133,13 @@ input::placeholder {
   position: absolute;
   bottom: -20px;
 }
+#quote-box {
+  position: absolute;
+  bottom: 23px;
+  right: 150px;
+  width: 600px;
+  height: 40px;
+}
 #quote {
   display: flex;
   flex-direction: column;
