@@ -90,7 +90,7 @@ input::placeholder {
   margin-bottom: 20px;
 }
 .todo-list-box {
-  height: 500px;
+  height: 450px;
   overflow: auto;
   display: flex;
   justify-content: center;
@@ -114,7 +114,7 @@ input::placeholder {
   justify-content: center;
   margin: 10px;
   font-size: 23px;
-  padding: 4px 0px;
+
   align-items: center;
   border-radius: 100px;
 }
