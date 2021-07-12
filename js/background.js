@@ -4,7 +4,7 @@ const images = [
   'img/은하수지상.jpg',
   'img/지구.jpg',
   'img/지구아침.jpg',
-  'img/ㅋㅋ.jpg',
+
   'img/폭발.jpg',
 ];
 const filter = document.querySelector('.box');
